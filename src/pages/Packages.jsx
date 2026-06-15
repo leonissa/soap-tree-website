@@ -80,7 +80,7 @@ const packages = [
       '2 x Full-body LED Light Therapy sessions',
       '1 x Full-body LED Light Therapy session',
       'Wellness assessment with registered nurse',
-      'Exclusive Eternita wellness journal',
+      'Exclusive Treasurer wellness journal',
     ],
   },
   {
@@ -108,7 +108,7 @@ const packages = [
     badgeColor: 'bg-eternita-coral',
     gradient: 'from-eternita-teal-dark to-eternita-coral',
     initials: 'DM',
-    desc: 'The ultimate Eternita experience. This monthly membership grants you unlimited access to select treatments, VIP perks, and a continuous, evolving wellness plan curated by our senior medical team.',
+    desc: 'The ultimate Treasurer experience. This monthly membership grants you unlimited access to select treatments, VIP perks, and a continuous, evolving wellness plan curated by our senior medical team.',
     items: [
       '2 treatments per month from our premium menu',
       'Unlimited LED Light Therapy sessions',

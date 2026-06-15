@@ -24,7 +24,7 @@ export default function Navbar({ onCartOpen }) {
             <div className="w-9 h-9 rounded-lg bg-eternita-teal flex items-center justify-center">
               <span className="font-serif font-bold text-eternita-white text-lg">E</span>
             </div>
-            <span className="font-serif text-2xl font-bold text-eternita-teal tracking-tight">Eternita</span>
+            <span className="font-serif text-2xl font-bold text-eternita-teal tracking-tight">Treasurer</span>
           </Link>
 
           {/* Desktop nav */}

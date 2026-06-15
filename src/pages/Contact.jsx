@@ -51,7 +51,7 @@ export default function Contact() {
             Let's Begin Your<br />Wellness Journey
           </h1>
           <p className="text-eternita-white/70 max-w-2xl mx-auto text-sm md:text-lg">
-            Ready to experience Eternita? Reach out to our team and take the first step toward a more radiant you.
+            Ready to experience Treasurer? Reach out to our team and take the first step toward a more radiant you.
           </p>
         </div>
       </section>
@@ -169,7 +169,7 @@ export default function Contact() {
             {/* Side info */}
             <div className="md:col-span-2">
               <div className="bg-gradient-to-br from-eternita-teal to-eternita-teal-dark rounded-3xl p-8 text-eternita-white sticky top-28">
-                <h3 className="font-serif text-xl font-bold mb-4">Why Choose Eternita in Lynnwood?</h3>
+                <h3 className="font-serif text-xl font-bold mb-4">Why Choose Treasurer in Lynnwood?</h3>
                 <ul className="space-y-4">
                   {[
                     'Complimentary consultations for all new guests',
