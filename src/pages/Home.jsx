@@ -184,7 +184,7 @@ export default function Home() {
               Curated, medical-grade treatments designed to restore, rejuvenate, and reveal your best self.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {featuredServices.map((service, index) => (
               <div key={service.id} className="card-hover bg-eternita-white rounded-2xl overflow-hidden border border-eternita-taupe/30">
                 {/* Image placeholder */}

@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 rounded-lg bg-eternita-teal flex items-center justify-center">
-                <span className="font-serif font-bold text-white text-lg">E</span>
+                <span className="font-serif font-bold text-white text-lg">T</span>
               </div>
               <span className="font-serif text-2xl font-bold text-eternita-white">The Soap Tree</span>
             </Link>
