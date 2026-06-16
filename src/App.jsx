@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './contexts/CartContext';
 import Navbar from './components/Navbar';
@@ -13,11 +12,9 @@ import Contact from './pages/Contact';
 import Checkout from './pages/Checkout';
 
 function AppLayout() {
-  const [cartOpen, setCartOpen] = useState(false);
-
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar onCartOpen={() => setCartOpen(true)} />
+      <Navbar />
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,7 +27,7 @@ function AppLayout() {
       </main>
       <Newsletter />
       <Footer />
-      <CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} />
+      <CartDrawer />
     </div>
   );
 }

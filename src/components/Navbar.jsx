@@ -10,9 +10,9 @@ const navLinks = [
   { label: 'CONTACT', path: '/contact' },
 ];
 
-export default function Navbar({ onCartOpen }) {
+export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const { cartCount } = useCart();
+  const { cartCount, openCart } = useCart();
   const location = useLocation();
 
   return (
@@ -49,7 +49,7 @@ export default function Navbar({ onCartOpen }) {
           <div className="flex items-center gap-4">
             {/* Cart button */}
             <button
-              onClick={onCartOpen}
+              onClick={openCart}
               className="relative p-2 text-eternita-dark/70 hover:text-eternita-teal transition-colors"
               aria-label="Open cart"
             >

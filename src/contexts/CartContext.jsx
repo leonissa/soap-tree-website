@@ -11,9 +11,14 @@ export function CartProvider({ children }) {
     }
   });
 
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
   useEffect(() => {
     localStorage.setItem('soaptree-cart', JSON.stringify(items));
   }, [items]);
+
+  const openCart = useCallback(() => setIsCartOpen(true), []);
+  const closeCart = useCallback(() => setIsCartOpen(false), []);
 
   const addToCart = useCallback((item) => {
     setItems((prev) => {
@@ -25,6 +30,8 @@ export function CartProvider({ children }) {
       }
       return [...prev, { ...item, qty: 1 }];
     });
+    // Slide the cart drawer open whenever something is added
+    setIsCartOpen(true);
   }, []);
 
   const removeFromCart = useCallback((id) => {
@@ -50,7 +57,7 @@ export function CartProvider({ children }) {
 
   return (
     <CartContext.Provider
-      value={{ items, addToCart, removeFromCart, updateQty, clearCart, totalPrice, cartCount }}
+      value={{ items, addToCart, removeFromCart, updateQty, clearCart, totalPrice, cartCount, isCartOpen, openCart, closeCart }}
     >
       {children}
     </CartContext.Provider>
