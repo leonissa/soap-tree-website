@@ -3,17 +3,17 @@
 @theme {
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", ui-serif, Georgia, serif;
-  --color-eternita-teal: #5b3a8c;
-  --color-eternita-teal-dark: #3f2865;
-  --color-eternita-teal-light: #b9a3d6;
-  --color-eternita-coral: #c9a227;
-  --color-eternita-coral-light: #e6cf7a;
-  --color-eternita-cream: #faf7fb;
+  --color-eternita-teal: #a8576b;
+  --color-eternita-teal-dark: #843f51;
+  --color-eternita-teal-light: #cf9aa8;
+  --color-eternita-coral: #c98b9a;
+  --color-eternita-coral-light: #e6bcc6;
+  --color-eternita-cream: #fdf6f7;
   --color-eternita-dark: #1a1a1a;
   --color-eternita-white: #ffffff;
   --color-eternita-gray: #9e9e9e;
-  --color-eternita-taupe: #e7ddf0;
-  --color-eternita-light: #f7f3fb;
+  --color-eternita-taupe: #ecdce0;
+  --color-eternita-light: #fbeef1;
   --animate-fade-in: fade-in 0.6s ease-out;
   --animate-marquee: marquee 30s linear infinite;
 }
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:hover {
   background-color: var(--color-eternita-teal-dark);
-  box-shadow: 0 10px 15px -3px rgba(91,58,140,0.25);
+  box-shadow: 0 10px 15px -3px rgba(168,87,107,0.25);
 }
 
 .btn-secondary {

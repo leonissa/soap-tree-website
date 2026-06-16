@@ -88,12 +88,12 @@ export default function About() {
     <div>
       {/* Hero */}
       <section className="bg-gradient-to-br from-eternita-teal-dark via-eternita-teal to-eternita-teal-light py-20 md:py-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
           <span className="section-label text-eternita-coral-light">About Us</span>
           <h1 className="font-serif text-4xl md:text-6xl font-bold text-eternita-white mt-3 mb-4">
             Elevated Wellness,<br />Expertly Delivered
           </h1>
-          <p className="text-eternita-white/70 max-w-2xl mx-auto text-sm md:text-lg">
+          <p className="text-eternita-white/70 max-w-2xl text-sm md:text-lg">
             Treasurer was founded with one belief — that everyone deserves access to medical-grade skincare in an environment that feels like a sanctuary.
           </p>
         </div>

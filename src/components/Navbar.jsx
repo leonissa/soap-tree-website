@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from '../contexts/cart-context';
 
 const navLinks = [
   { label: 'HOME', path: '/' },
@@ -18,17 +18,17 @@ export default function Navbar({ onCartOpen }) {
   return (
     <nav className="sticky top-0 z-50 bg-eternita-cream/95 backdrop-blur-md border-b border-eternita-taupe/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="relative flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-lg bg-eternita-teal flex items-center justify-center">
-              <span className="font-serif font-bold text-eternita-white text-lg">E</span>
+              <span className="font-serif font-bold text-eternita-white text-lg">T</span>
             </div>
             <span className="font-serif text-2xl font-bold text-eternita-teal tracking-tight">Treasurer</span>
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
             {navLinks.map((link) => (
               <Link
                 key={link.path}

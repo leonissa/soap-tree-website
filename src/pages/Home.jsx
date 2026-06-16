@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from '../contexts/cart-context';
 
 const stats = [
   { value: '500+', label: 'Treatments' },
@@ -100,26 +100,38 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-eternita-teal-dark via-eternita-teal to-eternita-teal-light py-24 md:py-36">
+      <section className="relative overflow-hidden bg-gradient-to-br from-eternita-teal-dark via-eternita-teal to-eternita-teal-light py-20 md:py-28">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-eternita-white blur-3xl" />
           <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-eternita-coral blur-3xl" />
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl font-bold text-eternita-white leading-tight mb-6 animate-fade-in">
-            Rediscover Your<br />
-            <span className="text-eternita-coral-light">Radiance</span>
-          </h1>
-          <p className="text-eternita-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 animate-fade-in">
-            Where timeless beauty meets advanced medical science in the Pacific Northwest. Experience transformative care just minutes from Seattle in our Lynnwood sanctuary.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-            <Link to="/treatments" className="btn-primary bg-eternita-white text-eternita-teal hover:bg-eternita-coral-light hover:text-eternita-dark">
-              Explore Treatments
-            </Link>
-            <Link to="/contact" className="btn-secondary border-eternita-white text-eternita-white hover:bg-eternita-white hover:text-eternita-teal">
-              Book a Consultation
-            </Link>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Text side */}
+            <div className="text-center lg:text-left">
+              <span className="section-label text-eternita-coral-light">Medical Spa &amp; Wellness</span>
+              <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-eternita-white leading-tight mt-3 mb-6 animate-fade-in">
+                Rediscover Your<br />
+                <span className="text-eternita-coral-light">Radiance</span>
+              </h1>
+              <p className="text-eternita-white/80 text-lg max-w-xl mx-auto lg:mx-0 mb-10 animate-fade-in">
+                Where timeless beauty meets advanced medical science in the Pacific Northwest. Experience transformative care just minutes from Seattle in our Lynnwood sanctuary.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in">
+                <Link to="/treatments" className="btn-primary bg-eternita-white text-eternita-teal hover:bg-eternita-coral-light hover:text-eternita-dark">
+                  Explore Treatments
+                </Link>
+                <Link to="/contact" className="btn-secondary border-eternita-white text-eternita-white hover:bg-eternita-white hover:text-eternita-teal">
+                  Book a Consultation
+                </Link>
+              </div>
+            </div>
+            {/* Image side */}
+            <div className="relative animate-fade-in">
+              <div className="h-72 sm:h-96 lg:h-[28rem] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-eternita-white/20">
+                <img src="/images/hero-spa.jpg" alt="Relaxing spa treatment at Treasurer" className="w-full h-full object-cover" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -196,20 +208,6 @@ export default function Home() {
             <Link to="/treatments" className="btn-secondary">
               View All Services
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Bar - repeated */}
-      <section className="bg-eternita-dark py-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {stats.map((stat) => (
-              <div key={stat.label}>
-                <p className="font-serif text-3xl md:text-4xl font-bold text-eternita-white">{stat.value}</p>
-                <p className="text-eternita-gray text-sm mt-1 tracking-wider">{stat.label}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>

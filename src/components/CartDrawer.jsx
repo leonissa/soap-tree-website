@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from '../contexts/cart-context';
 
 export default function CartDrawer({ open, onClose }) {
   const { items, removeFromCart, updateQty, totalPrice, cartCount } = useCart();

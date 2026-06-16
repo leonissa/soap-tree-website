@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from '../contexts/cart-context';
 
 const steps = [
   { id: 1, label: 'Details' },
