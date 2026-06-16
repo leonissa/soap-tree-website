@@ -80,7 +80,7 @@ const packages = [
       '2 x Full-body LED Light Therapy sessions',
       '1 x Full-body LED Light Therapy session',
       'Wellness assessment with registered nurse',
-      'Exclusive Soap Tree wellness journal',
+      'Exclusive The Soap Tree wellness journal',
     ],
   },
   {
@@ -108,7 +108,7 @@ const packages = [
     badgeColor: 'bg-eternita-coral',
     gradient: 'from-eternita-teal-dark to-eternita-coral',
     initials: 'DM',
-    desc: 'The ultimate Soap Tree experience. This monthly membership grants you unlimited access to select treatments, VIP perks, and a continuous, evolving wellness plan curated by our senior medical team.',
+    desc: 'The ultimate The Soap Tree experience. This monthly membership grants you unlimited access to select treatments, VIP perks, and a continuous, evolving wellness plan curated by our senior medical team.',
     items: [
       '2 treatments per month from our premium menu',
       'Unlimited LED Light Therapy sessions',
@@ -194,7 +194,7 @@ export default function Packages() {
                       >
                         Add to Cart
                       </button>
-                      <a href="tel:+15099863222" className="flex-1 btn-primary text-xs py-2.5 text-center">
+                      <a href="tel:+18186343007" className="flex-1 btn-primary text-xs py-2.5 text-center">
                         Book Now
                       </a>
                     </div>

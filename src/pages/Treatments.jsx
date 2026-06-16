@@ -113,7 +113,7 @@ export default function Treatments() {
             Advanced Aesthetics,<br />Timeless Results
           </h1>
           <p className="text-eternita-white/70 max-w-2xl text-sm md:text-lg">
-            Every treatment at Soap Tree is powered by medical-grade technology, delivered by licensed professionals, and tailored to your unique needs.
+            Every treatment at The Soap Tree is powered by medical-grade technology, delivered by licensed professionals, and tailored to your unique needs.
           </p>
         </div>
       </section>
@@ -160,7 +160,7 @@ export default function Treatments() {
                     >
                       Add to Cart
                     </button>
-                    <a href="tel:+15099863222" className="flex-1 btn-primary text-xs py-2.5 text-center">
+                    <a href="tel:+18186343007" className="flex-1 btn-primary text-xs py-2.5 text-center">
                       Book Now
                     </a>
                   </div>

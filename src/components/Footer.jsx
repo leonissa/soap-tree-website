@@ -21,10 +21,10 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-lg bg-eternita-teal flex items-center justify-center">
                 <span className="font-serif font-bold text-white text-lg">E</span>
               </div>
-              <span className="font-serif text-2xl font-bold text-eternita-white">Soap Tree</span>
+              <span className="font-serif text-2xl font-bold text-eternita-white">The Soap Tree</span>
             </Link>
             <p className="text-eternita-gray text-sm leading-relaxed max-w-xs">
-              Where timeless beauty meets advanced medical care in the Pacific Northwest. Your journey to radiant, lasting wellness begins here in Lynnwood.
+              Where timeless beauty meets advanced medical care. Your journey to radiant, lasting wellness begins here in Northridge.
             </p>
             {/* Social links */}
             <div className="flex gap-4 mt-6">
@@ -69,19 +69,19 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                 </svg>
-                <span className="text-eternita-gray">3000 184th St SW, Ste 366<br />Lynnwood, WA 98037</span>
+                <span className="text-eternita-gray">9301 Tampa Ave<br />Northridge, CA 91324</span>
               </li>
               <li className="flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-eternita-teal-light shrink-0">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
-                <span className="text-eternita-gray">(509) 986-3222</span>
+                <span className="text-eternita-gray">(818) 634-3007</span>
               </li>
               <li className="flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-eternita-teal-light shrink-0">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                 </svg>
-                <span className="text-eternita-gray">info@eternitawashington.com</span>
+                <span className="text-eternita-gray">thesoaptreenorthridge@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -91,16 +91,8 @@ export default function Footer() {
             <h4 className="font-serif text-lg font-semibold mb-4">Hours</h4>
             <ul className="space-y-3 text-sm text-eternita-gray">
               <li className="flex justify-between">
-                <span>Mon – Fri</span>
-                <span>9:00 AM – 7:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Saturday</span>
-                <span>9:00 AM – 5:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Sunday</span>
-                <span>10:00 AM – 3:00 PM</span>
+                <span>Open Daily</span>
+                <span>11:00 AM – 8:00 PM</span>
               </li>
             </ul>
           </div>
@@ -110,7 +102,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-eternita-gray/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-eternita-gray">
-          &copy; {year} Soap Tree Med Spa & Wellness. All rights reserved.
+          &copy; {year} The Soap Tree Med Spa & Wellness. All rights reserved.
         </div>
       </div>
     </footer>
