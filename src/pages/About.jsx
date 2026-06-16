@@ -10,7 +10,7 @@ const stats = [
 const values = [
   {
     title: 'Medical Excellence',
-    desc: 'Every treatment at Treasurer is supervised by licensed medical professionals. We invest in the latest FDA-cleared technology and adhere to the highest clinical standards in the industry.',
+    desc: 'Every treatment at Soap Tree is supervised by licensed medical professionals. We invest in the latest FDA-cleared technology and adhere to the highest clinical standards in the industry.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: 'What is the difference between a medical spa and a regular spa?',
-    a: 'Unlike traditional day spas, a medical spa operates under the supervision of licensed medical professionals and offers clinical-grade treatments that go beyond the surface. At Treasurer, every treatment is performed or overseen by registered nurses and nurse practitioners using advanced medical technology.',
+    a: 'Unlike traditional day spas, a medical spa operates under the supervision of licensed medical professionals and offers clinical-grade treatments that go beyond the surface. At Soap Tree, every treatment is performed or overseen by registered nurses and nurse practitioners using advanced medical technology.',
   },
   {
     q: 'Do you treat men as well?',
@@ -94,7 +94,7 @@ export default function About() {
             Elevated Wellness,<br />Expertly Delivered
           </h1>
           <p className="text-eternita-white/70 max-w-2xl text-sm md:text-lg">
-            Treasurer was founded with one belief — that everyone deserves access to medical-grade skincare in an environment that feels like a sanctuary.
+            Soap Tree was founded with one belief — that everyone deserves access to medical-grade skincare in an environment that feels like a sanctuary.
           </p>
         </div>
       </section>
@@ -110,23 +110,23 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-eternita-gray text-sm md:text-base leading-relaxed">
                 <p>
-                  Treasurer was born from a simple observation: the med spa industry was full of hype but short on genuine, results-driven care. Our founders — a team of registered nurses and wellness practitioners — wanted to create something different: a place where advanced medical aesthetics meets authentic hospitality.
+                  Soap Tree was born from a simple observation: the med spa industry was full of hype but short on genuine, results-driven care. Our founders — a team of registered nurses and wellness practitioners — wanted to create something different: a place where advanced medical aesthetics meets authentic hospitality.
                 </p>
                 <p>
                   We opened our doors in Lynnwood with a clear mission: to offer transformative treatments in a space that feels more like a wellness retreat than a clinic. Nestled near Alderwood Mall and serving the greater Seattle metro area, every detail from the warm finishes to the curated treatment menu was designed with intentionality.
                 </p>
                 <p>
-                  Today, Treasurer is home to a team of over 20 licensed professionals, each committed to continuing education and mastering the latest techniques. We invest in the best technology, the finest products, and — most importantly — genuine relationships with every client who walks through our doors in the Pacific Northwest.
+                  Today, Soap Tree is home to a team of over 20 licensed professionals, each committed to continuing education and mastering the latest techniques. We invest in the best technology, the finest products, and — most importantly — genuine relationships with every client who walks through our doors in the Pacific Northwest.
                 </p>
                 <p>
-                  Whether you are a first-time visitor or a longtime member, you are not just a client at Treasurer. You are part of our family.
+                  Whether you are a first-time visitor or a longtime member, you are not just a client at Soap Tree. You are part of our family.
                 </p>
               </div>
             </div>
             <div className="h-80 md:h-96 rounded-3xl overflow-hidden">
               <img
                 src="/images/about-story.jpg"
-                alt="Treasurer story - Lynnwood, WA"
+                alt="Soap Tree story - Lynnwood, WA"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -179,9 +179,9 @@ export default function About() {
             <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311C9.591 11.69 11 13.144 11 15c0 1.93-1.57 3.5-3.5 3.5-1.282 0-2.484-.685-2.917-1.179zm9.129 0C12.682 16.227 12.129 15 12.129 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311C18.72 11.69 20.129 13.144 20.129 15c0 1.93-1.57 3.5-3.5 3.5-1.282 0-2.484-.685-2.917-1.179z" />
           </svg>
           <p className="font-serif text-xl md:text-2xl italic text-eternita-dark/80 leading-relaxed mb-6">
-            "We believe that beauty is about revealing the most radiant version of yourself — just like the natural splendor of the Pacific Northwest. At Treasurer in Lynnwood, we combine science, art, and genuine care to help you glow from the inside out, rain or shine."
+            "We believe that beauty is about revealing the most radiant version of yourself — just like the natural splendor of the Pacific Northwest. At Soap Tree in Lynnwood, we combine science, art, and genuine care to help you glow from the inside out, rain or shine."
           </p>
-          <p className="font-semibold text-eternita-dark">— The Treasurer Team</p>
+          <p className="font-semibold text-eternita-dark">— The Soap Tree Team</p>
         </div>
       </section>
 
@@ -192,7 +192,7 @@ export default function About() {
             <span className="section-label">FAQ</span>
             <h2 className="section-heading mt-3">Frequently Asked Questions</h2>
             <p className="text-eternita-gray mt-4 max-w-xl mx-auto text-sm md:text-base">
-              Everything you need to know before your first visit to Treasurer.
+              Everything you need to know before your first visit to Soap Tree.
             </p>
           </div>
           <div className="space-y-3">

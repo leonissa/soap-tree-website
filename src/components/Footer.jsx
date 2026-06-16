@@ -21,7 +21,7 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-lg bg-eternita-teal flex items-center justify-center">
                 <span className="font-serif font-bold text-white text-lg">E</span>
               </div>
-              <span className="font-serif text-2xl font-bold text-eternita-white">Treasurer</span>
+              <span className="font-serif text-2xl font-bold text-eternita-white">Soap Tree</span>
             </Link>
             <p className="text-eternita-gray text-sm leading-relaxed max-w-xs">
               Where timeless beauty meets advanced medical care in the Pacific Northwest. Your journey to radiant, lasting wellness begins here in Lynnwood.
@@ -110,7 +110,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-eternita-gray/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-eternita-gray">
-          &copy; {year} Treasurer Med Spa & Wellness. All rights reserved.
+          &copy; {year} Soap Tree Med Spa & Wellness. All rights reserved.
         </div>
       </div>
     </footer>

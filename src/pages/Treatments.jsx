@@ -113,7 +113,7 @@ export default function Treatments() {
             Advanced Aesthetics,<br />Timeless Results
           </h1>
           <p className="text-eternita-white/70 max-w-2xl text-sm md:text-lg">
-            Every treatment at Treasurer is powered by medical-grade technology, delivered by licensed professionals, and tailored to your unique needs.
+            Every treatment at Soap Tree is powered by medical-grade technology, delivered by licensed professionals, and tailored to your unique needs.
           </p>
         </div>
       </section>
