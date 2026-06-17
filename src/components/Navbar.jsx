@@ -63,10 +63,13 @@ export default function Navbar() {
               )}
             </button>
 
-            {/* Book Now - desktop only */}
-            <a href="tel:+18186343007" className="hidden md:inline-block btn-primary text-xs py-2.5 px-6 whitespace-nowrap">
-              BOOK NOW
-            </a>
+            {/* Book Now - desktop only (wrapper carries the hidden class so
+                .btn-primary's display:inline-block can't override it) */}
+            <span className="hidden md:inline-block">
+              <a href="tel:+18186343007" className="btn-primary text-xs py-2.5 px-6 whitespace-nowrap">
+                BOOK NOW
+              </a>
+            </span>
 
             {/* Mobile hamburger */}
             <button
