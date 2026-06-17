@@ -34,7 +34,7 @@ const services = [
   },
   {
     id: 'chemical-peel',
-    name: 'Signature Chemical Peel',
+    name: 'Glow Peel Facial',
     price: 179,
     duration: '45 min',
     gradient: 'from-eternita-teal-light to-eternita-teal',
