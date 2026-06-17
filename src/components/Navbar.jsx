@@ -63,8 +63,8 @@ export default function Navbar() {
               )}
             </button>
 
-            {/* Book Now */}
-            <a href="tel:+18186343007" className="btn-primary text-[11px] sm:text-xs py-2 px-3 md:py-2.5 md:px-6 whitespace-nowrap">
+            {/* Book Now - desktop only */}
+            <a href="tel:+18186343007" className="hidden md:inline-block btn-primary text-xs py-2.5 px-6 whitespace-nowrap">
               BOOK NOW
             </a>
 
