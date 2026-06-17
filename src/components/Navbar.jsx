@@ -20,11 +20,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg bg-eternita-teal flex items-center justify-center">
+          <Link to="/" className="flex items-center gap-2 shrink-0">
+            <div className="w-9 h-9 rounded-lg bg-eternita-teal flex items-center justify-center shrink-0">
               <span className="font-serif font-bold text-eternita-white text-lg">T</span>
             </div>
-            <span className="font-serif text-2xl font-bold text-eternita-teal tracking-tight">The Soap Tree</span>
+            <span className="font-serif text-xl sm:text-2xl font-bold text-eternita-teal tracking-tight whitespace-nowrap">The Soap Tree</span>
           </Link>
 
           {/* Desktop nav */}
@@ -46,7 +46,7 @@ export default function Navbar() {
           </div>
 
           {/* Right side */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-1 sm:gap-4 shrink-0">
             {/* Cart button */}
             <button
               onClick={openCart}
